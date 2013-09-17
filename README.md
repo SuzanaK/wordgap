@@ -8,5 +8,7 @@ Wordgap uses the following frameworks or libraries: NLTK, Nodebox Linguistics, D
 published under a GNU General Public License (GPL) 3.0. 
 
 The software was presented on the [2nd workshop on NLP for computer-assisted language learning](http://spraakbanken.gu.se/eng/forskning/ICALL/2ndNLP4CALL),
- organised by the NoDaLiDa conference 2013 in Oslo:  [WordGap - Automatic Generation of Gap-Filling Vocabulary Exercises for Mobile Learning by Susanne Knoop and Sabrina Wilske] (http://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/81_knoop_wilske.pdf)
+ organised by the NoDaLiDa conference 2013 in Oslo:  
+ [WordGap - Automatic Generation of Gap-Filling Vocabulary Exercises for Mobile Learning] (http://spraakbanken.gu.se/sites/spraakbanken.gu.se/files/81_knoop_wilske.pdf)
+   by Susanne Knoop and Sabrina Wilske
 
