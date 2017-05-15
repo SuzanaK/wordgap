@@ -26,7 +26,7 @@ try:
 except: 
     print("Kann Tagger nicht laden!")        
 finally:
-    if fh != None:
+    if fh is not None:
         fh.close()
 # tokenizer is loaded on import for performance reasons 
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')

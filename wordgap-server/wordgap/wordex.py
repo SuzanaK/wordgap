@@ -73,7 +73,7 @@ def create_ex(text, pos='n', last_index=False, fast=False):
         dis = tools.get_dis(chosen, pos, lemmas_in_order_of_frequency, fast=fast)
 
         # Wenn keine gueltigen Distraktoren gefunden werden koennen, Satz auslassen 
-        if dis == None:
+        if dis is None:
             s = re.sub(r, "", " ".join(s))
             sents_with_cloze[i].append(s)
             continue
