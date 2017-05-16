@@ -186,7 +186,7 @@ def result(request):
         sek = duration.seconds
         stunden, rest = divmod(sek, 3600)
         minuten, sek = divmod(rest, 60)
-        print '%sentence:%sentence:%sentence' % (stunden, minuten, sek)
+        print '{0!s}entence:{1!s}entence:{2!s}entence'.format(stunden, minuten, sek)
 
 
     if request.session.get("right"):
